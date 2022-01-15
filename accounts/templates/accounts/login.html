@@ -98,7 +98,13 @@
 												<input type="password" class="form-control" name="password" required placeholder="Password" />
 											</div>
 										</div>
-
+										<div class="col-md-12">
+											<div class="form-group">
+												{% for message in messages %}
+													<h6 class="form-control"> {{ message }} </h6>
+												{% endfor %}
+											</div>
+										</div>
 										<div class="col-md-12">
 											<div class="form-group">
 												<input type="submit" value="Login" class="btn btn-primary btn-submit">
