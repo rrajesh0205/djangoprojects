@@ -1,1 +1,1 @@
-Print("This has been typed in GitHUb")
+Print("This code has been typed in GitHUb")
